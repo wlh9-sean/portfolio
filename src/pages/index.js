@@ -28,6 +28,9 @@ const IndexPage = () => (
             strategy foster collaborative thinking to further the overall value
             proposition.
           </p>
+          <p className="lead mb-5">
+            I am an experienced professional with strong communication and teamwork skills. Actively seeking employment in the technical 
+          </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
               const { icon, url } = social;
@@ -52,71 +55,83 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Student Web Developer</h3>
+              <div className="subheading mb-3">DevMountain</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                <ul>Studied and obtained a strong knowledge of Javascript, React, HTML, and CSS.</ul>
+                <ul>Developed applications combining multiple technologies including React and Redux.</ul>
+                <ul>Lead and implemented a group project.</ul>
+                <ul>Completed the Immersive Web Development Bootcamp in which we trained
+                    everyday for 23 weeks straight on the fundamentals of development.
+                </ul>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">May 2019 - October 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Product Specialist</h3>
+              <div className="subheading mb-3">Apple</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+                <ul>Top ranked customer satisfaction scores.</ul>
+                <ul>Managed a team of 10-60 employees at any given moment.</ul>
+                <ul>Managed customer appointments using an internal management software.</ul>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">
+                <ul>
+                  November 2019 - Present
+                </ul>
+                <ul>
+                  August 2017 - May 2019
+                </ul>
+              </span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Makeup Instructor</h3>
+              <div className="subheading mb-3">Skinworks School of Advanced Skincare</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+                <ul>Provided education to students on the fundamentals of makeup artistry.</ul>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">June 2018 - May 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Apprentice</h3>
+              <div className="subheading mb-3">Lunatic Fringe Sugarhouse</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+                <ul>Helped ensure the success of all stylists by managing appointments resulting in a high end salon experience.</ul>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">2017</span>
             </div>
           </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Apprentice</h3>
+              <div className="subheading mb-3">Lunatic Fringe Sugarhouse</div>
+              <p>
+                <ul>Helped ensure the success of all stylists by managing appointments resulting in a high end salon experience.</ul>
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">2017</span>
+            </div>
+          </div>
+          
         </div>
       </section>
 

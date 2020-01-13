@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
+import sean from '../assets/images/sean.png';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -15,7 +15,7 @@ export class Sidebar extends Component {
         { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
         { content: 'Interests', href: 'interests' },
-        { content: 'Awards', href: 'awards' },
+        { content: 'Projects', href: 'projects' },
       ],
     };
   }
@@ -34,7 +34,7 @@ export class Sidebar extends Component {
           <span className="d-none d-lg-block">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src={avatar}
+              src={sean}
               alt=""
             />
           </span>
